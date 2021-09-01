@@ -13,7 +13,7 @@ export function Header() {
          placeholder="Search healthy recipes"
         />
           <HiSearch className={styles.icon} />
-      </div> 
+      </div>  
 
       <figure>
         <img src={illustrationCalories} alt="ilustração nutricional" />
