@@ -1,0 +1,39 @@
+.containerService {
+  display: flex;
+  height: 100vh;
+
+  .contentServices {
+    max-width: 420px;
+    height: 458px;
+    margin-top: 8rem;
+    margin-left: 10rem;
+
+    h1 {
+      margin: 2rem 0;
+      font-family: Montserrat, sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 2.6875rem;
+      color: #2D3561;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6875rem;
+      color: #BCBCBC;
+    }
+
+    button {
+      border: 0;
+      width: 134px;
+      height: 48px;
+      background: var(--green-400);
+      color: var(--white);
+      line-height: 1.6875rem;
+      border-radius: 0.35rem;
+      font-family: Mulish;
+      text-align: center;
+      margin-top: 1.8rem;
+    }
+  }
+}

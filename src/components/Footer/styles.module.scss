@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 103px;
+  align-items: center;
+  margin: 0 6rem;
+
+  span {
+    color: #1D164D;
+  }
+
+  .TermsAndConditions {
+    span {
+      color: #9E9BAF;
+      padding: 2rem;
+    }
+  }
+}

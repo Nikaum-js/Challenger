@@ -1,0 +1,40 @@
+.Membership {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+
+  .Address {
+    margin-right: 10rem;
+
+
+    h1 {
+      margin-left: 14rem;
+      margin-top: 17rem;
+  
+      max-width: 400px;
+      font-size: 2rem;
+      line-height: 2.6875rem;
+      font-weight: 700;
+      font-family: Montserrat, sans-serif;
+      color: #2D3561;
+    }
+
+    input {
+      border: 1px solid #707070;
+    }
+
+    button {
+      margin-left: 1rem;
+      border: 0;
+      width: 92px;
+      height: 52px;
+      background: var(--green-400);
+      color: var(--white);
+      line-height: 1.6875rem;
+      border-radius: 0.35rem;
+      font-family: Mulish;
+      text-align: center;
+      margin-top: 1.8rem;
+    }
+  }
+}
