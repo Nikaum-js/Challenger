@@ -1,7 +1,6 @@
 import CapaBlog1 from '../../assets/blog_image_1.svg'
 import CapaBlog2 from '../../assets/bloco_image_2.svg'
 import CapaBlog3 from '../../assets/bloco_image_3.svg'
-import CapaBlog4 from '../../assets/bloco_image_4.svg'
 
 import styles from './styles.module.scss'
 
@@ -18,7 +17,6 @@ export function Blog() {
         <h2>Quick-start guide to nuts and seeds</h2>
 
         <div className={styles.perfilImage}>
-          {/* <img src={CapaBlog1} alt="foto de perfil"/> */}
           <p>Kevin Ibrahim</p>
         </div>
       </div>
@@ -28,7 +26,6 @@ export function Blog() {
         <h2>Nutrition: Tips for Improving Your Health</h2>
 
         <div className={styles.perfilImage}>
-          {/* <img src={CapaBlog2} alt="foto de perfil"/> */}
           <p>Mike Jackson</p>
         </div>
       </div>
@@ -38,19 +35,9 @@ export function Blog() {
         <h2>The top 10 benefits of eating healthy</h2>
 
         <div className={styles.perfilImage}>
-          {/* <img src={CapaBlog3} alt="foto de perfil"/> */}
           <p>Bryan McGregor</p>
         </div>
       </div>
-
-      {/* <div className={styles.cards}>
-        <img src={CapaBlog4} alt="capa do blog"/>
-        <h2>Quick-start guide to nuts and seeds</h2>
-
-        <img id={styles.perfilImage} src={CapaBlog4} alt="foto de perfil"/>
-        <p>Kevin Ibrahim</p>
-      </div> */}
-
     </div>
 
   </main>

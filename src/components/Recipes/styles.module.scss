@@ -96,6 +96,7 @@
 
 @media (max-width: 1483px) {
   .recipes {
+    height: 220vh;
   
     .boxCards {
       justify-content: center;
@@ -116,14 +117,14 @@
 
 @media (max-width: 948px) {
   .recipes {
-    height: 200vh;
+    height: 220vh;
     margin-top: 15rem;
   }
 }
 
 @media (max-width: 768px) {
   .recipes {
-    height: 175vh;
+    height: 200vh;
     margin-top: 18rem;
     
     h4 {
