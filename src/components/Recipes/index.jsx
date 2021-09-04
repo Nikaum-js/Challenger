@@ -11,7 +11,7 @@ export function Recipes() {
       <h1>Our Best Recipes</h1>
       <h4>Far for away, behind the word mountains, far from the countries Vokalia and Consonantia. there live the blind texts.</h4>
 
-      <div className={styles.boxCards}>
+      <div id="healthy" className={styles.boxCards}>
         <div className={styles.card}>
           <img src={comida1} alt="comidas" />
           <div className={styles.contentBox}>

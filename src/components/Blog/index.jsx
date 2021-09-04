@@ -14,7 +14,7 @@ export function Blog() {
     <div className={styles.CardsBlog}>
 
       <div className={styles.cards}>
-        <img src={CapaBlog1} alt="capa do blog"/>
+        <img id="blog" src={CapaBlog1} alt="capa do blog"/>
         <h2>Quick-start guide to nuts and seeds</h2>
 
         <div className={styles.perfilImage}>

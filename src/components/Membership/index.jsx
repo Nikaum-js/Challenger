@@ -14,7 +14,7 @@ export function Membership() {
       </section>
 
       <div className={styles.MembershipFigure}>
-        <img src={memberImg} alt="membros" />
+        <img id="join" src={memberImg} alt="membros" />
       </div>
     </main>
   );

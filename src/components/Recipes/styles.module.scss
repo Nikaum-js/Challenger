@@ -73,3 +73,146 @@
     }
   }
 }
+
+@media (max-width: 1483px) {
+  .recipes {
+  
+    .boxCards {
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+  
+      .card {
+        img {
+          height: 225px;
+          width: 253px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1483px) {
+  .recipes {
+  
+    .boxCards {
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+  
+      .card {
+        img {
+          height: 225px;
+          width: 253px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 948px) {
+  .recipes {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .recipes {
+    margin-top: 18rem;
+    
+    h4 {
+      width: 340px; 
+    }
+  
+    .boxCards {
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+  
+      .card {
+        width: 440px;
+        height: 195px;
+
+        .contentBox {
+
+          h2 {
+            font-size: 1rem;
+            line-height: 2.125rem;
+            width: 100px;
+            margin: 3rem;
+          }
+
+          button {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 2rem 3rem;
+            border: 0;
+            width: 80px;
+            height: 40px;
+            line-height: 1.6875rem;
+            border-radius: 0.35rem;
+            text-align: center;
+          }
+        }
+        img {
+          padding-right: 3rem;
+          height: 195px;
+          width: 253px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 509px) {
+  .recipes {
+    
+    h4 {
+      width: 300px; 
+    }
+  
+    .boxCards {
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+  
+      .card {
+        width: 280px;
+        height: 112px;
+
+        .contentBox {
+
+          h2 {
+            font-size: 1rem;
+            line-height: 2.125rem;
+            width: 100px;
+            margin: 1.5rem;
+          }
+
+          button {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: -1rem 1rem;
+            border: 0;
+            width: 60px;
+            height: 30px;
+            line-height: 1.6875rem;
+            border-radius: 0.35rem;
+            text-align: center;
+          }
+        }
+        img {
+          margin-top: -4rem;
+          height: 195px;
+          width: 153px;
+        }
+      }
+    }
+  }
+}

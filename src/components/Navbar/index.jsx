@@ -22,21 +22,19 @@ export function Navbar() {
       <label id="checkboxLabel" for="checkbox" class="menu">
         <AiOutlineClose id="x" fontSize="43px" />
       </label>
-        <li><a href="#home">Para você</a></li>
-        <li><a href="#negócio">Para o seu negócio</a></li>
-        <li><a href="#benefícios">Clube dos benefícios</a></li>
-        <li><a href="#cotação">Cotação</a></li>
-        <li><a href="#somos">Quem somos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#healthy">HEALTHY RECIPES</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#join">JOIN</a></li>
+        <li> <button>REGISTER</button> </li>
         </ul>
       </nav>
 
     <nav id="desktop">
     <h1 className="logo">Healthy Food</h1>
       <ul>
-      <li><a href="#home">HEALTHY RECIPES</a></li>
-        <li><a href="#negócio">BLOG</a></li>
-        <li><a href="#benefícios">JOIN</a></li>
+      <li><a href="#healthy">HEALTHY RECIPES</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#join">JOIN</a></li>
         <li> <button>REGISTER</button> </li>
       </ul> 
     </nav>

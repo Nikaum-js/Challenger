@@ -9,12 +9,12 @@ import { Service } from "./components/Service";
 function App() {
   return (
   <>
-    {/* <Navbar />
-    <Header /> */}
+    <Navbar />
+    <Header />
     <Recipes />
-    {/* <Service /> */}
-    {/* <Blog />
-    <Membership />
+    <Service />
+    <Blog />
+    {/* <Membership />
     <Footer /> */}
   </>
   );

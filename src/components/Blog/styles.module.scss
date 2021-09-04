@@ -69,3 +69,113 @@
     }
   }
 }
+
+@media (max-width: 1288px) {
+  .blog {
+    
+    .CardsBlog {
+      max-width: 100vw;
+      display: flex;
+      justify-content: center;
+      margin: 2rem;
+      align-items: center;
+      flex-direction: column;
+  
+      .cards {
+
+          img {
+            width: 348px;
+            height: 247px;
+          }
+        } 
+    }
+  }    
+}
+
+@media (max-width: 630px) {
+  .blog {
+
+    h4 {
+      width: 340px; 
+    }
+    
+    .CardsBlog {
+  
+      .cards {
+
+          img {
+            width: 348px;
+            height: 247px;
+          }
+
+          .perfilImage {
+            width: 33px; 
+            height: 33px; 
+            border-radius: 50%;
+            margin-left: 2rem;
+            margin-top: 4rem;
+            background-color: #6F737F;
+    
+            p {
+              color: #9E9BAF;
+              margin-left: 5rem;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              position: relative;
+              top: 10px;
+            }
+          }
+        } 
+    }
+  }    
+}
+
+@media (max-width: 540px) {
+  .blog {
+    
+    .CardsBlog {
+      max-width: 100vw;
+      display: flex;
+      justify-content: center;
+      margin: 2rem;
+      align-items: center;
+      flex-direction: column;
+  
+      .cards {
+        margin: 1rem;
+        max-width: 248px;
+        height: 380px;
+
+          img {
+            margin-bottom: -2rem;
+            width: 248px;
+            height: 247px;
+          }
+        } 
+    }
+  }    
+}
+
+@media (max-width: 434px) {
+  .blog {
+
+    h4 {
+      width: 240px; 
+    }
+    
+    .CardsBlog {
+  
+      .cards {
+        margin: 1rem;
+        max-width: 200px;
+        height: 360px;
+
+          img {
+            margin-bottom: -4rem;
+            width: 200px;
+            height: 247px;
+          }
+        } 
+    }
+  }    
+}
