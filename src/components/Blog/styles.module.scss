@@ -72,6 +72,7 @@
 
 @media (max-width: 1288px) {
   .blog {
+    height: 180vh;
     
     .CardsBlog {
       max-width: 100vw;
@@ -82,6 +83,7 @@
       flex-direction: column;
   
       .cards {
+        margin: 2rem 0;
 
           img {
             width: 348px;
@@ -158,6 +160,7 @@
 
 @media (max-width: 434px) {
   .blog {
+    height: 200vh;
 
     h4 {
       width: 240px; 

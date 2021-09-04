@@ -135,9 +135,30 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 500px) {
   .containerService {
     height: 75vh;
+    
+    .boxImage {
+      display: none;
+  
+      img {
+        width: 100%;
+        height: 100%;
+      } 
+    }
+  
+    .contentServices {
+      width: 200px;
+      margin: 5rem auto;
+    }
+ 
+  }
+}
+
+@media (max-width: 500px) {
+  .containerService {
+    // height: 75vh;
     
     .boxImage {
       display: none;

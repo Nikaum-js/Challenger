@@ -116,12 +116,14 @@
 
 @media (max-width: 948px) {
   .recipes {
+    height: 200vh;
     margin-top: 15rem;
   }
 }
 
 @media (max-width: 768px) {
   .recipes {
+    height: 175vh;
     margin-top: 18rem;
     
     h4 {
@@ -171,15 +173,16 @@
 
 @media (max-width: 509px) {
   .recipes {
-    
+    height: 115vh;
+
     h4 {
       width: 300px; 
     }
   
     .boxCards {
+      margin: 1rem 0;
       justify-content: center;
       align-items: center;
-      margin: 0;
   
       .card {
         width: 280px;

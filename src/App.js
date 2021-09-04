@@ -14,8 +14,8 @@ function App() {
     <Recipes />
     <Service />
     <Blog />
-    {/* <Membership />
-    <Footer /> */}
+    <Membership />
+    <Footer />
   </>
   );
 }
