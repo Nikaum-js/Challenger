@@ -137,6 +137,7 @@
 
 @media (max-width: 360px) {
   .containerService {
+    height: 75vh;
     
     .boxImage {
       display: none;
@@ -149,7 +150,7 @@
   
     .contentServices {
       width: 200px;
-      margin: 9rem auto;
+      margin: 5rem auto;
     }
  
   }

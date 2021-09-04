@@ -216,3 +216,42 @@
     }
   }
 }
+
+@media (max-width: 376px) {
+  .recipes {
+    
+    h1 {
+      margin-top: 5rem;
+    }
+  
+    h4 {
+      margin-top: 1rem;
+    }
+  
+    .boxCards {
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 0;
+  
+      .card {
+        width: 280px;
+        height: 110px;
+
+        .contentBox {
+
+          h2 {
+            font-size: 1rem;
+            line-height: 2.125rem;
+            width: 100px;
+            margin: 1.5rem;
+          }
+        }
+        img {
+          margin-top: -4.21rem;
+          height: 195px;
+          width: 155px;
+        }
+      }
+    }
+  }
+}
