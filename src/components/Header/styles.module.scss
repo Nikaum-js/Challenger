@@ -309,3 +309,26 @@ main {
   }
   }
 }
+
+@media (max-width: 322px) {
+  main {
+    figure {
+      margin-top: -47rem;
+
+      img {
+        height: 244px;
+        width: 280px;
+      }
+
+    .search {
+      margin-left: 7rem;
+
+      .titleHeader {
+        font-size: 1.2rem;
+        max-width: 240px;
+        line-height: 3.8rem;
+      }
+    }
+  }
+  }
+}
