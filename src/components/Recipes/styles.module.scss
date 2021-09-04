@@ -74,9 +74,12 @@
   }
 }
 
-@media (max-width: 1483px) {
+
+
+@media (max-width: 1500px) {
   .recipes {
-  
+    height: 225vh;
+
     .boxCards {
       justify-content: center;
       align-items: center;

@@ -48,8 +48,15 @@
   }
 }
 
+@media (max-width: 1585px) {
+  .containerService {
+    height: 120vh;
+  }
+}
+
 @media (max-width: 1291px) {
   .containerService {
+    height: 110vh;
     
     .boxImage {
       width: 618px;
